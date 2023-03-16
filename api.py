@@ -14,10 +14,10 @@ app = Flask(__name__)
 
 # Connect to the database
 db = mysql.connector.connect(
-  host="localhost",
-  user="testUsr",
+  host="db5012315885.hosting-data.io",
+  user="dbu2006945",
   password="TenWolfMadCar1!",
-  database="userdb",
+  database="dbs10360416",
 )
 
 mycursor = db.cursor()
